@@ -170,7 +170,6 @@ def unprocessable(error):
                     "error": 404,
                     "message": "resource not found"
                     }), 404
-
 '''
 @app.errorhandler(404)
 def resource_not_found(error):
@@ -179,7 +178,6 @@ def resource_not_found(error):
         "error": 404,
         "message": "resource not found"
     }), 404
-
 '''
 @TODO implement error handler for AuthError
     error handler should conform to general task above
